@@ -67,15 +67,6 @@ export default function LayoutHeader(props) {
                                     </Avatar>
                                 </div>
                             </Popover>
-                        },
-                        {
-                            key: 'key-notification',
-                            onClick: props.onShowNotification,
-                            label: (
-                                <Badge count={props.notificationCount} className='vertical-center'>
-                                    <img height={28} src={notification} />
-                                </Badge>
-                            )
                         }
                     ]}
                 />
