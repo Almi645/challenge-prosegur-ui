@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Televisor LG NanoCell 55' UHD 4K ThinQ AI 55NANO77SRA (2023)",
+        "price": 2649.00,
+        "brandId": 1,
+        "brandName": "LG",
+        "color": "Negro"
+    },
+    {
+        "id": 2,
+        "name": "Televisor Samsung Smart Tv 50 Qled 4k Qn50q65cagxpe (nuevo)",
+        "price": 1299.00,
+        "brandId": 2,
+        "brandName": "Samsung",
+        "color": "Negro"
+    },
+    {
+        "id": 3,
+        "name": "Televisor LG NanoCell 65'' UHD 4K ThinQ AI 65NANO75SQA",
+        "price": 4299.00,
+        "brandId": 1,
+        "brandName": "LG",
+        "color": "Negro"
+    },
+    {
+        "id": 4,
+        "name": "Audífonos inalámbricos JBL Tune 510BT JBLT510BT negro",
+        "price": 2649.00,
+        "brandId": 3,
+        "brandName": "JBL",
+        "color": "Azul"
+    },
+    {
+        "id": 5,
+        "name": "Audífonos Bluetooth Xiaomi Redmi Buds Essential Negro",
+        "price": 79,
+        "brandId": 4,
+        "brandName": "Xiaomi",
+        "color": "Negro"
+    }
+]

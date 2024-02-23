@@ -1,0 +1,62 @@
+/* MAIN CONTENT */
+
+#component-layout .site-layout-content {
+    padding: 20px 24px 24px 24px;
+    background: #fff;
+    height: auto;
+}
+
+/* MENU HEADER */
+
+#component-layout > .ant-layout > .ant-layout-header {
+    height: 60px;
+    line-height: 60px;
+    padding: 0px;
+    background: #1a3a55;
+    /* background: linear-gradient(90deg, rgba(22,88,43,1) 0%, rgba(0,94,171,1) 60%, rgba(0,111,201,1) 100%); */
+} 
+#component-layout > .ant-layout > .ant-layout-header > ul.ant-menu-overflow {
+    background: none;
+    direction: rtl;
+}
+
+/* NOTIFICATION */
+
+/* .components-layout-notification .ant-list-lg .ant-list-item {
+    padding: 17px 19px!important;
+}
+.components-layout-notification .ant-drawer-body{
+    padding: 0px!important;
+}
+*/
+/* LOGO */
+
+#component-layout .logo {
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 6px;
+    height: 100%;
+    float: left;
+}
+#component-layout .title-app {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+#component-layout .ant-layout-content {
+    padding: 0px!important;
+}
+
+/* POPOVER */
+
+#component-layout .user-content {
+    cursor: pointer;
+    cursor: hand;
+    padding: 0 20px;
+}
+#component-layout .user-avatar {
+    color: #ffffff;
+    background-color: #ff7875;
+    font-weight: 500;
+} 

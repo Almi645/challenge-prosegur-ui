@@ -1,0 +1,42 @@
+#shared-component-loading .ant-spin-nested-loading {
+    height: 100%!important;
+}
+#shared-component-loading .ant-spin-container {
+    height: 100%!important;
+}
+#shared-component-loading .image-loading {
+    width: auto;
+    border-radius: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: -45px;
+}
+#shared-component-loading .small {
+    height: 40px;
+    border-radius: 20px;
+}
+#shared-component-loading .default {
+    height: 50px;
+    border-radius: 25px;
+}
+#shared-component-loading .large {
+    height: 60px;
+    border-radius: 30px;
+}
+#shared-component-loading .x-large {
+    height: 70px;
+    border-radius: 35px;
+}
+#shared-component-loading .xx-large {
+    height: 80px;
+    border-radius: 40px;
+}
+#shared-component-loading .xxx-large {
+    height: 90px;
+    border-radius: 45px;
+}
+#shared-component-loading .xxxx-large {
+    height: 100px;
+    border-radius: 50px;
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "key": 1,
+        "name": "Clientes",
+        "icon": "/user/01.svg",
+        "route": "/customer"
+    },
+    {
+        "key": 2,
+        "name": "Productos",
+        "icon": "/product/01.svg",
+        "route": "/product"
+    }
+]
