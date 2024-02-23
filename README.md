@@ -2,12 +2,12 @@
 
 ## Variables de Entorno
 
-Para cambiar el valor del endpoint de donde se obtienes los datos 
+Para cambiar el valor del endpoint del cual se obtiene los datos: 
 
 **Archivo**
 `.env`
 
-## Pasos para levatar el proyecto
+## Compilar Proyecto
 
 **Instalar paquetes**
 ```
