@@ -1,6 +1,25 @@
 # Challenge Prosegur
 
-## Usuarios de Sistema
+## Variables de Entorno
+
+Para cambiar el valor del endpoint de donde se obtienes los datos 
+
+**Archivo**
+`.env`
+
+## Pasos para levatar el proyecto
+
+**Instalar paquetes**
+```
+npm install
+```
+
+**Levantar proyecto**
+```
+npm run starts
+```
+
+## Usuarios del Sistema
 
 **Administrador**
 - user: administrator@gmail.com

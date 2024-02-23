@@ -24,24 +24,24 @@ export default function LayoutHeader(props) {
                 <div className='padding-10'>
                     <Space align="center">
                         <Avatar size={64} style={{ color: '#fff', backgroundColor: '#ff7875', fontWeight: 500 }}>
-                            {fullName.substring(0, fullName.lenght === 1 ? 1 : 2).toUpperCase()}
+                            {(session.user()?.fullname ?? '--').substring(0, fullName.lenght === 1 ? 1 : 2).toUpperCase()}
                         </Avatar>
                         <div>
-                            <Title level={5} className='mb-0 mt-0'>{fullName}</Title>
+                            <Title level={5} className='mb-0 mt-0'>{session.user()?.fullname}</Title>
                             <Text>{session.user()?.username}</Text>
                         </div>
                     </Space>
                 </div>
                 <Divider className='mt-5 mb-10' />
-                    <Button block
-                        icon={<LogoutOutlined />}
-                        type="text"
-                        onClick={props.onSignOut}
-                        className='text-left'
-                    >
-                        Cerrar Sesión
-                    </Button>
-                
+                <Button block
+                    icon={<LogoutOutlined />}
+                    type="text"
+                    onClick={props.onSignOut}
+                    className='text-left'
+                >
+                    Cerrar Sesión
+                </Button>
+
             </div>
         );
     }
