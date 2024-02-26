@@ -16,7 +16,7 @@ npm install
 
 **Levantar proyecto**
 ```
-npm run starts
+npm run start
 ```
 
 ## Usuarios del Sistema
